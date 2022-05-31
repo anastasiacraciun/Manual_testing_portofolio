@@ -63,8 +63,15 @@ Various periodic reports were generated to reflect the current status of the tes
 
 ## 1.3 Test Analysis
 
-The testing process will be executed based on the above requirements for the Dependents module. The following test conditions were found:
- * Enter test conditions here
+The testing process will be executed based on the above requirements for the Work Experience module. The following test conditions were found:
+
+* Enter data only for mandatory fields and check that the work experience is created/updated
+* Enter data for all available fields and check that the work experience is created/updated
+* Leave mandatory fields empty and check that the work experience cannot be created/updated
+* View work experience details and check they are correct
+* View all work experiences in a list
+* Check all validation constraints for the fields
+* Delete the work experience previously added and check if it can be removed.
 
 ## 1.4 Test Design
 
@@ -72,7 +79,8 @@ Functional test cases were created in Zephyr Squad. Based on the analysis of the
 are:
 
 **Test cases:**
--> enter here test cases or at least the titles
+
+![tes_cases](https://user-images.githubusercontent.com/103954649/171224230-4dab0de5-2c91-40f4-9b92-d3f5a2a145cf.PNG)
 
 
 The test cases with steps can be viewed here: [test_cases.pdf]()
