@@ -83,8 +83,7 @@ are:
 ![tes_cases](https://user-images.githubusercontent.com/103954649/171224230-4dab0de5-2c91-40f4-9b92-d3f5a2a145cf.PNG)
 
 
-The test cases with steps can be viewed here: [test_cases.pdf](https://github.com/anastasiacraciun/Manual_testing_portofolio/files/8812120/Zephyr.TEST.Steps.%2B.Executions.%2B.Results.Jira.pdf)
-](https://github.com/anastasiacraciun/Manual_testing_portofolio/blob/main/Final%20Project/Zephyr%20TEST%20Steps%20%2B%20Executions%20%2B%20Results%20(Jira).pdf)
+The test cases with steps can be viewed here: [test_cases_work_experience](https://github.com/anastasiacraciun/Manual_testing_portofolio/blob/main/Final%20Project/Zephyr%20TEST%20Steps%20%2B%20Executions%20%2B%20Results%20(Jira).pdf)
 ## 1.5 Test Implementation
 
 The following elements are needed to be ready before the test execution phase begins:
