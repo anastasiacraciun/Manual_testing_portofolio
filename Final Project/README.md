@@ -83,7 +83,7 @@ are:
 ![tes_cases](https://user-images.githubusercontent.com/103954649/171224230-4dab0de5-2c91-40f4-9b92-d3f5a2a145cf.PNG)
 
 
-The test cases with steps can be viewed here: [test_cases.pdf]([Zephyr TEST Steps + Executions + Results (Jira).pdf](https://github.com/anastasiacraciun/Manual_testing_portofolio/files/8812120/Zephyr.TEST.Steps.%2B.Executions.%2B.Results.Jira.pdf))
+The test cases with steps can be viewed here: [test_cases.pdf)(https://github.com/anastasiacraciun/Manual_testing_portofolio/files/8812120/Zephyr.TEST.Steps.%2B.Executions.%2B.Results.Jira.pdf)
 
 ## 1.5 Test Implementation
 
