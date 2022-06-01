@@ -84,11 +84,19 @@ are:
 
 
 The test cases with steps can be viewed here: [test_cases_work_experience](https://github.com/anastasiacraciun/Manual_testing_portofolio/blob/main/Final%20Project/Test%20Steps.pdf)
+
+For the Work Experience API, the following checklist was generated:
+
 ## 1.5 Test Implementation
 
 The following elements are needed to be ready before the test execution phase begins:
 
-* enter here what needs to be ready for the test execution to begin
+* Testing environment is up and running: https://opensource-demo.orangehrmlive.com/
+* Access to the testing environment is given: Username : Admin | Password : admin123
+* Cycle summary was created
+* Test cases were added to the cycle summary
+* Postman collection with the work experience API methods was created
+* Authorization token was created for accessing the API
 
 ## 1.6 Test Execution
 
