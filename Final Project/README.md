@@ -59,7 +59,8 @@ The entry criterias defined in the Test Planning phase have been achieved and th
 ## 1.2 Test Monitoring and Control
 
 Various periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report was generated after 73% of the test cases were executed, on 20th of June 2022:
-![pie](https://user-images.githubusercontent.com/103954649/171041438-bbc07c23-01e9-4c5c-8fcb-3b91ae63a4c0.PNG)
+
+![pie](https://user-images.githubusercontent.com/103954649/171379376-eb937000-dd08-4036-9a2a-cbcefd1b2e38.PNG)
 
 ## 1.3 Test Analysis
 
@@ -120,9 +121,12 @@ The following elements are needed to be ready before the test execution phase be
 
 * Exit criteria was evaluated and passed
 * The traceability matrix was generated and can be found here: [Traceability_matrix.csv]()
-* Test execution chart was generated, the final report shows.... -> describe the final report
+* Test execution chart was generated, the final report shows that a number 15 tests have failed of a total of 30
+* A number of 30 test cases were planned for execution and all of them were executed
+* A number of 15 total bugs were found, from which the priority is: 1 is high, 4 are medium and 1 is low
 
--> enter here test execution report/chart
+#### Test Execution Chart
+![final Chart](https://user-images.githubusercontent.com/103954649/171377836-31a3183c-6807-4f84-8ae0-a2dbb68f342c.PNG)
 
 # 2 SQL section
 
