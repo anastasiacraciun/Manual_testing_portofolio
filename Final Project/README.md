@@ -102,8 +102,19 @@ The following elements are needed to be ready before the test execution phase be
 
 * Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf](https://github.com/anastasiacraciun/Manual_testing_portofolio/blob/main/Final%20Project/Test%20Execution.pdf)
 * Bugs have been created based on the failed tests. The complete bug reports can be found here: [created_bugs.pdf](https://github.com/anastasiacraciun/Manual_testing_portofolio/blob/main/Final%20Project/Created%20Bugs.pdf)
-    *  enter here bug titles
-
+    *  The date in the "To" field can be typed in
+    *  The date in the "From" field can be typed in
+    *  The input "Company" accepts more than 55 characters length maximum
+    *  Can not add a comment that is 300 characters long
+    *  The date format in the "To" field is yyyy-mm-dd instead of dd/mm/yyyy
+    *  A user is able to add the same work experience many times
+    *  The input "Job Title" accepts more than 55 characters length maximum
+    *  The date format in the "From" field is yyyy-mm-dd instead of dd/mm/yyyy
+    *  "Job Title" field accepts all type of characters. Only alphabetical characters are supposed to be accepted
+    *  The user can select a date in the future in the "From" field
+    *  The user can select a date in the future in the "To" field
+    *  The "Job Title" accepts less than 2 characters
+    *  The "Company" field accepts less than 2 characters
 
 ## 1.7 Test Completion
 
