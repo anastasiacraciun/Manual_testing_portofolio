@@ -126,7 +126,8 @@ The following elements are needed to be ready before the test execution phase be
 * A number of 15 total bugs were found, from which the priority is: 1 is high, 4 are medium and 1 is low
 
 #### Test Execution Chart
-![final Chart](https://user-images.githubusercontent.com/103954649/171377836-31a3183c-6807-4f84-8ae0-a2dbb68f342c.PNG)
+
+![final Chart](https://user-images.githubusercontent.com/103954649/171666281-811af79d-a8f2-4565-bb41-2701ffcc1bc8.PNG)
 
 # 2 SQL section
 
