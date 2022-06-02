@@ -102,7 +102,7 @@ The following elements are needed to be ready before the test execution phase be
 ## 1.6 Test Execution
 
 * Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf](https://github.com/anastasiacraciun/Manual_testing_portofolio/blob/main/Final%20Project/Test%20Execution.pdf)
-* Bugs have been created based on the failed tests. The complete bug reports can be found here: [created_bugs.pdf](https://github.com/anastasiacraciun/Manual_testing_portofolio/blob/main/Final%20Project/Created%20Bugs.pdf)
+* Bugs have been created based on the failed tests. The complete bug reports can be found here: [created_bugs.pdf]
     *  The date in the "To" field can be typed in
     *  The date in the "From" field can be typed in
     *  The input "Company" accepts more than 55 characters length maximum
