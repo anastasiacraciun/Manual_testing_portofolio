@@ -132,4 +132,4 @@ The following elements are needed to be ready before the test execution phase be
 ![final Chart](https://user-images.githubusercontent.com/103954649/171666281-811af79d-a8f2-4565-bb41-2701ffcc1bc8.PNG)
 
 # 2 SQL section
-
+A database named 'OrangeHRM_WorkExperience' was created and 3 tables named 'work_experience', 'Date' and 'Details' with all the columns needed to save data per specifications. Performed different queries inside the sql file:
