@@ -86,7 +86,7 @@ are:
 
 The test cases with steps can be viewed here: [test_cases_work_experience](https://github.com/anastasiacraciun/Manual_testing_portofolio/blob/main/Final%20Project/Test%20Steps.pdf)
 
-For the Work Experience API, the following checklist was generated:[API_test_checklist](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fanastasiacraciun%2FManual_testing_portofolio%2Fmain%2FFinal%2520Project%2FAPI_test_checklist.xlsx&wdOrigin=BROWSELINK)
+For the Work Experience API, the following checklist was generated:[API_test_checklist] (https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fanastasiacraciun%2FManual_testing_portofolio%2Fmain%2FFinal%2520Project%2FAPI_test_checklist.xlsx&wdOrigin=BROWSELINK)
 
 ## 1.5 Test Implementation
 
