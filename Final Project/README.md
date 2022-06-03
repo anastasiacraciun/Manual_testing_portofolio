@@ -118,7 +118,8 @@ The following elements are needed to be ready before the test execution phase be
     *  The user can select a date in the future in the "To" field
     *  The "Job Title" accepts less than 2 characters
     *  The "Company" field accepts less than 2 characters
-* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for the Work Experience API]()
+* API tests are executed based on the checklist. The collection used can be found here: [JSON file with the collection of requests created for the Work Experience API](https://github.com/anastasiacraciun/Manual_testing_portofolio/blob/main/Final%20Project/Anastasia%20Final%20Project%20(AFP).postman_collection.json)
+
 * Full regression testing is needed after the bugs are fixed
 
 ## 1.7 Test Completion
