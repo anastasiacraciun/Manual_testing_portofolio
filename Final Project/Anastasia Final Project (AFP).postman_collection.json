@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "c4b717dd-7311-4f32-8dfc-b4d77c773d65",
+		"name": "Anastasia Final Project (AFP)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Qualifications-add work experience",
+			"item": [
+				{
+					"name": "getAccessToken",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"client_id\": \"anastasia\",\r\n    \"client_secret\": \"test1234\",\r\n    \"grant_type\": \"client_credentials\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://opensource-demo.orangehrmlive.com/index.php/oauth/issueToken",
+							"protocol": "https",
+							"host": [
+								"opensource-demo",
+								"orangehrmlive",
+								"com"
+							],
+							"path": [
+								"index.php",
+								"oauth",
+								"issueToken"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get customer",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer d4368ebf4087af587d97a06e5dcf5a091cd2258e",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/search",
+							"protocol": "https",
+							"host": [
+								"opensource-demo",
+								"orangehrmlive",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Work Experience",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer d4368ebf4087af587d97a06e5dcf5a091cd2258e",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/7/work-experience",
+							"protocol": "https",
+							"host": [
+								"opensource-demo",
+								"orangehrmlive",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"7",
+								"work-experience"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "save employee work experience",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer d4368ebf4087af587d97a06e5dcf5a091cd2258e",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"9\",\r\n    \"company\": \"beta\",\r\n    \"title\": \"qa\",\r\n    \"fromDate\": \"2022-07-15\",\r\n    \"toDate\": \"2022-08-30\",\r\n    \"comment\": \"well done\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/7/work-experience",
+							"protocol": "https",
+							"host": [
+								"opensource-demo",
+								"orangehrmlive",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"7",
+								"work-experience"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update employee work experience",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer d4368ebf4087af587d97a06e5dcf5a091cd2258e",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"8\",\r\n    \"seqId\": \"3\",\r\n    \"company\": \"beta\",\r\n    \"title\": \"manager\",\r\n    \"fromDate\": \"2022-07-15\",\r\n    \"toDate\": \"2022-08-30\",\r\n    \"comment\": \"good work\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/7/work-experience",
+							"protocol": "https",
+							"host": [
+								"opensource-demo",
+								"orangehrmlive",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"7",
+								"work-experience"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete employee work experience",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer d4368ebf4087af587d97a06e5dcf5a091cd2258e",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"7\",\r\n    \"seqId\": \"3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://opensource-demo.orangehrmlive.com/api/v1/employee/7/work-experience",
+							"protocol": "https",
+							"host": [
+								"opensource-demo",
+								"orangehrmlive",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"employee",
+								"7",
+								"work-experience"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
